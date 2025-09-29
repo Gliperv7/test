@@ -65,3 +65,75 @@ footer{
 .col-right .bottom {
     flex: 0 0 40%;
 }
+@media (max-width: 320px) {
+    .hero-body {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col {
+        width: 100%;
+        flex: none;
+    }
+
+    .col-left,
+    .col-right {
+        flex: none;
+        width: 100%;
+    }
+
+    .col-left .top,
+    .col-left .bottom,
+    .col-right .top,
+    .col-right .bottom {
+        flex: none;
+        width: 100%;
+        height: var(--width-mob);
+    }
+
+    .block {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 764px) {
+    .hero-body {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col-left {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: var(--padding-size);
+    }
+    .col-left .top {
+        flex: 0 0 70%;
+        height: var(--width-mob);
+    }
+    .col-left .bottom {
+        flex: 0 0 28%;
+        height: var(--width-mob);
+    }
+
+    .col-right {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: var(--padding-size);
+    }
+    .col-right .top,
+    .col-right .bottom {
+        flex: 1;
+        height: calc(var(--width-mob) * 2.5);
+    }
+
+    .block {
+        width: 100%;
+        height: auto;
+    }
+}
+
