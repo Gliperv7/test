@@ -65,7 +65,7 @@ footer{
 .col-right .bottom {
     flex: 0 0 40%;
 }
-@media (max-width: 320px) {
+@media (max-width: 764px) {
     .hero-body {
         flex-direction: column;
         height: auto;
@@ -98,7 +98,7 @@ footer{
 }
 
 
-@media (min-width: 321px) and (max-width: 764px) {
+@media (min-width: 765px) and (max-width: 1024px) {
     .hero-body {
         flex-direction: column;
         height: auto;
