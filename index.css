@@ -1,139 +1,14 @@
 @import "styles/reset.css";
 @import "styles/vars.css";
- header , footer{
-     width: 80%;
-     margin:1px auto;
-     padding: calc(var(--padding-size) * 2.5) calc(var(--padding-size) * 1.5);
-     height: var(--header-height);
-     border: 1px solid var(--primary-color);
-     border-radius: calc(var(--padding-size) / 0.5);
- }
-footer{
-    margin: 10px auto;
-
-}
-
-.navbar-item{
-    color: var(--primary-color);
-    font-size: var(--font-size-h1);
-   display: flex;
-    justify-content: center;
-}
-.hero-body {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    gap: var(--padding-size);
-    height: var(--hero-body-height);
-    padding: var(--padding-size) 0;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    gap: var(--padding-size);
-}
-
-
-.block {
+* {
     border: 1px solid var(--primary-color);
-    border-radius: calc(var(--padding-size) / 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--font-size-h1);
-}
-
-
-.col-left {
-    flex: 0 0 30%;
-}
-.col-left .top {
-    flex: 0 0 80%;
-}
-.col-left .bottom {
-    flex: 0 0 20%;
-}
-
-
-.col-right {
-    flex: 0 0 69.05%;
-}
-.col-right .top {
-    flex: 0 0 60%;
-}
-.col-right .bottom {
-    flex: 0 0 40%;
 }
 @media (max-width: 764px) {
-    .hero-body {
-        flex-direction: column;
-        height: auto;
-    }
 
-    .col {
-        width: 100%;
-        flex: none;
-    }
-
-    .col-left,
-    .col-right {
-        flex: none;
-        width: 100%;
-    }
-
-    .col-left .top,
-    .col-left .bottom,
-    .col-right .top,
-    .col-right .bottom {
-        flex: none;
-        width: 100%;
-        height: var(--width-mob);
-    }
-
-    .block {
-        width: 100%;
-        height: auto;
-    }
 }
 
 
 @media (min-width: 765px) and (max-width: 1024px) {
-    .hero-body {
-        flex-direction: column;
-        height: auto;
-    }
 
-    .col-left {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: var(--padding-size);
-    }
-    .col-left .top {
-        flex: 0 0 70%;
-        height: var(--width-mob);
-    }
-    .col-left .bottom {
-        flex: 0 0 28%;
-        height: var(--width-mob);
-    }
-
-    .col-right {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: var(--padding-size);
-    }
-    .col-right .top,
-    .col-right .bottom {
-        flex: 1;
-        height: calc(var(--width-mob) * 2.5);
-    }
-
-    .block {
-        width: 100%;
-        height: auto;
-    }
 }
 
