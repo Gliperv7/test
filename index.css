@@ -1,8 +1,78 @@
 @import "styles/reset.css";
 @import "styles/vars.css";
-* {
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: var(--padding-size) 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.logo, .menu {
+    border: 1px solid var(--primary-color);
+    height: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+.menu {
+    width: 700px;
+}
+
+
+.layout {
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.content, .content-center {
+    border: 1px solid var(--primary-color);
+    height: 300px;
+    text-align: center;
+}
+
+.content-center {
+    grid-column: span 3;
+}
+
+.sidebar {
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+footer {
+    width: 1400px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
     border: 1px solid var(--primary-color);
 }
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 764px) {
 
 }
