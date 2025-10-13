@@ -49,7 +49,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main3&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -81,6 +81,9 @@
       <workItem from="1759728091306" duration="1009000" />
       <workItem from="1759753884621" duration="417000" />
       <workItem from="1759828315503" duration="3926000" />
+      <workItem from="1760018973545" duration="434000" />
+      <workItem from="1760161047003" duration="1193000" />
+      <workItem from="1760340259399" duration="9206000" />
     </task>
     <servers />
   </component>

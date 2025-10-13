@@ -3,16 +3,23 @@
 
 
 
+    --width-main:1180px;
+    --min-indentation:10px;
+    --meddium-indentation:20px;
+    --max-indentation:100px;
+    --width-size200:200px;
+    --width-size378:378px;
+    --width-size440:440px;
+    --width-size450:450px;
+    --width-size480:480px;
+    --width-size500:500px;
+    --width-size650:650px;
+    --width-size680:680px;
+    --width-size1130:1130px;
+    --width-size1170:1170px;
+    --size-main:700px;
 
---logo-size:50px;
---width-mob:200px;
-    --conteiners-size:100px;
---hero-body-height: 700px;
---section-size: 1000px;
---warper-width:1400px;
---content-size:300px;
---font-size-h1: 20px;
---padding-size: 10px;
---header-height:75px;
+
+
 }
 
